@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.w-1440{
+    width: 1440px;
+    height: 900px;
+    margin: 0 auto;
+    background-color: grey;
+}
+
+/*-----------header-------------------*/
+
+
+

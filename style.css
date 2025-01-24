@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,700;1,700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -8,25 +10,56 @@
 
 .w-1440{
     width: 1440px;
-    /*height: 4792px;*/
+    height: 100vh;
     margin: 0 auto;
     background-color: #EFF0F3;
-}
 
-.header a {
+}
+/*-----------header-------------------*/
+header {
     height: 86px;
     flex-shrink: 0;
     background: #EFF0F3;
-    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+    box-shadow: 4px 6px 13px 0 rgba(182, 28, 28, 0.25);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+    margin-left: 95px;
+}
+
+a{
+    color: inherit;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
 }
 
 .logo-main{
-
     color: #001858;
     font-family: "Plus Jakarta Sans", serif;
     font-size: 36px;
     font-weight: 600;
-
 }
 
 .logo-blog{
@@ -36,10 +69,13 @@
     font-family: "Plus Jakarta Sans", serif;
     font-size: 18px;
     font-weight: 700;
-
 }
 
-/*-----------header-------------------*/
+.cup{
+    margin-right: 112px;
+}
+
+
 
 
 

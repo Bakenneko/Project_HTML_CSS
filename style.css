@@ -18,11 +18,8 @@
 /*-----------header-------------------*/
 header {
     height: 86px;
-    flex-shrink: 0;
-    background: #EFF0F3;
     box-shadow: 4px 6px 13px 0 rgba(182, 28, 28, 0.25);
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -42,24 +39,22 @@ header nav {
     color: #2B2C34;
     font-family: "Plus Jakarta Sans", serif;
     font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
     text-transform: capitalize;
+    margin-left: 300px;
+    margin-right: 50px;
 }
 
 header nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 40px;
 }
 
 .logo-main{
     color: #001858;
     font-family: "Plus Jakarta Sans", serif;
     font-size: 36px;
-    font-weight: 600;
 }
 
 .logo-blog{
@@ -68,11 +63,25 @@ header nav ul {
     color: #6246EA;
     font-family: "Plus Jakarta Sans", serif;
     font-size: 18px;
-    font-weight: 700;
+}
+
+.search{
+    gap: 10px;
 }
 
 .cup{
     margin-right: 112px;
+    display: flex;
+    padding: 10px 17px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    background: #6246EA;
+    border: none;
+    color: #FFFFFE;
+    font-family: "Plus Jakarta Sans", serif;
+    font-size: 18px;
+    text-transform: capitalize;
 }
 
 

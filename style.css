@@ -86,17 +86,18 @@ header nav ul {
     font-weight: 700;
 }
 
-/*-----------section-------------------*/
+/*-----------section1-------------------*/
 
 .study{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 250px 95px 263px 95px;
+    padding: 164px 95px 263px 95px;
 }
 
 .study div h1 {
     width: 617px;
+    height: 162px;
     color: #2B2C34;
     font-family: "Plus Jakarta Sans", serif;
     font-size: 64px;
@@ -121,6 +122,7 @@ header nav ul {
     align-items: stretch;
 }
 #email {
+    
     padding: 21px 200px 21px 25px;
     border-radius: 8px;
     border: none;
@@ -142,8 +144,108 @@ header nav ul {
     cursor: pointer;
     margin-left: 20px;
 }
+/*-----------section2-------------------*/
+.ht-550{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #EFF0F3;
+}
+
+.wrapper{
+    height: 550px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 67px;
+    margin-bottom: 50px;
+}
+
+.link {
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.box {
+    display: flex;
+    gap: 37px;
+}
+
+.card{
+    text-align: center;
+    width: 220px;
+    height: 280px;
+    border-radius: 8px;
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+    background-color: #FFFFFE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    transition: background-color 2.5s ease;
+}
+
+.card:hover{
+    background-color: #6246EA;
+    cursor: pointer;
+}
+
+.card p {
+    display: flex;
+    text-align: left;
+    color: #232323;
+    font-family: "Plus Jakarta Sans", serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card img{
+    flex-direction: column;
+    align-items: flex-start;
+    height: 35px;
+}
 
 
+.inner-card{
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    background: #FFFFFE;
+    margin-bottom: 30px;
+}
 
+.s1{
+    margin: 12px 14px 11px 13px;
+}
+.img2{
+    margin: 12px 10px 14px 10px;
+}
+
+.s3{
+    margin: 18px 10px 18px 10px;
+}
+.s4{
+    margin: 15px 12px 14px 12px;
+}
+.s5{
+    margin: 12px 10px 12px 10px;
+}
+.card:hover p{
+    color:#FFFFFE;
+    font-family: "Plus Jakarta Sans", serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
 
 

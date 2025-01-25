@@ -16,6 +16,7 @@
 }
 /*-----------header-------------------*/
 header {
+    height: 86px;
     box-shadow: 4px 6px 13px 0 rgba(182, 28, 28, 0.25);
     display: flex;
     align-items: center;

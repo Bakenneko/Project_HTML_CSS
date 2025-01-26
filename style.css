@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,700;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital@0;1&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -298,5 +299,37 @@ header nav ul {
 .bottoms img{
     width: 57px;
     height: 57px;
+}
+
+.bottom1{
+    display: flex;
+    align-items: center;
+}
+
+
+.bolt{
+    width: 73px;
+    height: 21px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.thick{
+    width: 184px;
+    height: 21px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.text-column{
+    margin-left: 15px;
 }
 

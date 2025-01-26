@@ -270,13 +270,9 @@ header nav ul {
 }
 
 .card1, .card2, .card3, .card4 {
-    display: flex;
     width: 300px;
     height: 425px;
     padding: 20px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     border-radius: 12px;
     background:#FFFFFE;
     box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
@@ -285,6 +281,13 @@ header nav ul {
 .cards h3 {
     width: 260px;
     margin: 25px 0 55px 0;
+    color: #0D0D0D;
+    font-family: "Plus Jakarta Sans", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
 }
 .cards img{
     width: 260px;
@@ -306,6 +309,13 @@ header nav ul {
     align-items: center;
 }
 
+div .m-80{
+    margin-bottom: 80px;
+}
+
+div .m-30{
+    margin-bottom: 30px;
+}
 
 .bolt{
     width: 73px;
@@ -332,4 +342,24 @@ header nav ul {
 .text-column{
     margin-left: 15px;
 }
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.article{
+    padding: 20px 23px 19px 23px;
+    gap: 10px;
+    border-radius: 8px;
+    background: #6246EA;
+    color: #FFFFFE;
+    font-family: "Plus Jakarta Sans", serif;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+}
+
+
 

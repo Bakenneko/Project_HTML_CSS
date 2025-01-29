@@ -122,8 +122,8 @@ header nav ul {
     display: flex;
     align-items: stretch;
 }
+
 #email {
-    
     padding: 21px 200px 21px 25px;
     border-radius: 8px;
     border: none;
@@ -361,5 +361,93 @@ div .m-30{
     border: none;
 }
 
+/*-----------post mail card-------------------*/
 
+.h-435{
+    display: flex;
+    align-items: center;
+    height: 435px;
+    margin-top: 80px;
+    background: #EFF0F3;
+}
 
+.post-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 696px;
+    height: 337px;
+    margin: 58px 372px;
+}
+.mailbox{
+    width: 130px;
+    height: 130px;
+    border-radius: 60px;
+    background: white;
+
+}
+
+div .mailbox img{
+    margin: 23px 25px 0 25px;
+}
+
+div .post-card h2 {
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 30px 0 10px 0;
+    text-align: center;
+}
+div .post-card p {
+    width: 696px;
+    color: #C0C0C0;
+    text-align: center;
+    font-family: "Plus Jakarta Sans", serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+input[type="email"] {
+    padding: 10px;
+    height: 67px;
+    width: 444px;
+    border-radius: 8px;
+    color:#C0C0C0;
+    font-family: "Plus Jakarta Sans", serif;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    margin-right: 20px;
+}
+
+.mail-button {
+    border: none;
+    cursor: pointer;
+    height: 67px;
+    width: 145px;
+    border-radius: 8px;
+    background:#6246EA;
+    display: flex;
+    padding: 20px 23px 19px 23px;
+    gap: 10px;
+    color: #FFFFFE;
+    font-family: "Plus Jakarta Sans", serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/*****************************footer*******************/
+
+.footer-bottom{
+    height: 435px;
+    background: #C0C0C0;
+}

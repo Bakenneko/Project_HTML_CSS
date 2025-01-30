@@ -18,9 +18,10 @@
 /*-----------header-------------------*/
 header {
     height: 86px;
-    box-shadow: 4px 6px 13px 0 rgba(182, 28, 28, 0.25);
     display: flex;
     align-items: center;
+    background: #EFF0F3;
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
 }
 
 .logo {
@@ -474,6 +475,20 @@ footer{
     font-family: "Plus Jakarta Sans", serif;
     font-size: 18px;
     font-weight: 700;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+}
+.medium {
+    vertical-align: middle;
+    margin-right: 30px;
+    height: 24px;"
+}
+
+.social-icons svg {
+    margin-right: 30px;
 }
 
 .blog-info h2 {
